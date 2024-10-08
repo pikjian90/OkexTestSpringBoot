@@ -21,8 +21,7 @@ APIs built with SpringBoot:
 - /redis/alltestresult
 <br>User can check the execution result of each test result</br>
 <br>Sample:</br>
-  <code>
-  {
+  <code>{
     "data": {
       "TestCases.PublicData.InstrumentTest_verifyNegativeInvalidInstId": "pass",
       "TestCases.PublicData.InstrumentTest_verifyRateLimit": "pass",
@@ -38,8 +37,7 @@ APIs built with SpringBoot:
 - /redis/countalltestresult
   <br>User can check the number of passed, failed and total number of test result</br>
   <br>Sample:</br>
-  <code>
-  {
+  <code>{
     "data": {
       "Passed": 50,
       "Failed": 1,
