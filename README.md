@@ -3,8 +3,7 @@ APIs built with SpringBoot:
 - /redis/searchtestresult?name=OrderBookTest
 <br>User can search test result by test case name</br>
 <br>Sample:</br>
-  <code>
-  {
+  <code>{
     "data": {
       "TestCases.MarketData.OrderBookTest_verifyNegativeInvalidEndpoint": "pass",
       "TestCases.MarketData.OrderBookTest_verifyPositive": "pass",
