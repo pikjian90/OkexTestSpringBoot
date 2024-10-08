@@ -2,7 +2,9 @@ APIs built with SpringBoot:
 
 - /redis/searchtestresult
   User can search test result by test case name
-  <code>{
+
+  <code>
+  {
   "data": {
     "TestCases.MarketData.OrderBookTest_verifyNegativeInvalidEndpoint": "pass",
     "TestCases.MarketData.OrderBookTest_verifyPositive": "pass",
@@ -14,7 +16,8 @@ APIs built with SpringBoot:
   },
   "code": "200",
   "msg": "Success"
-}</code>
+}
+</code>
 
 - /redis/alltestresult
 ![image](https://github.com/user-attachments/assets/c8ce935b-2d07-45b1-8000-671123325365)
