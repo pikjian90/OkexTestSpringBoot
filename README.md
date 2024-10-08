@@ -1,7 +1,7 @@
 APIs built with SpringBoot:
 
 - /redis/searchtestresult?name=OrderBookTest
-  User can search test result by test case name
+User can search test result by test case name
   <code>
   {
     "data": {
@@ -19,7 +19,7 @@ APIs built with SpringBoot:
   </code>
 
 - /redis/alltestresult
-  User can check the execution result of each test result
+User can check the execution result of each test result
   <code>
   {
     "data": {
