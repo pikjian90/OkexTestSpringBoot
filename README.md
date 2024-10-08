@@ -1,7 +1,20 @@
 APIs built with SpringBoot:
 
 - /redis/searchtestresult
-- [image](https://github.com/user-attachments/assets/3785cd89-5b66-4515-a65c-fc7539364dfd)
+  User can search test result by test case name
+  <code>{
+  "data": {
+    "TestCases.MarketData.OrderBookTest_verifyNegativeInvalidEndpoint": "pass",
+    "TestCases.MarketData.OrderBookTest_verifyPositive": "pass",
+    "TestCases.MarketData.OrderBookTest_verifyNegativeMissingInstId": "pass",
+    "TestCases.MarketData.OrderBookTest_verifyResponseTime": "pass",
+    "TestCases.MarketData.OrderBookTest_verifyNegativeInvalidInstId": "pass",
+    "TestCases.MarketData.OrderBookTest_verifyNegativeInvalidMethod": "pass",
+    "TestCases.MarketData.OrderBookTest_verifyRateLimit": "fail"
+  },
+  "code": "200",
+  "msg": "Success"
+}</code>
 
 - /redis/alltestresult
 ![image](https://github.com/user-attachments/assets/c8ce935b-2d07-45b1-8000-671123325365)
