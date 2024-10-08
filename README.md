@@ -2,7 +2,6 @@ APIs built with SpringBoot:
 
 - /redis/searchtestresult?name=OrderBookTest
   User can search test result by test case name
-
   <code>
   {
     "data": {
@@ -36,8 +35,7 @@ APIs built with SpringBoot:
   </code>
 
 - /redis/countalltestresult
-  User can check the number of passed, failed and total number of test result
-  
+  User can check the number of passed, failed and total number of test result  
   <code>
   {
     "data": {
