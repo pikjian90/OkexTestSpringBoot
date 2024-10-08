@@ -19,7 +19,8 @@ APIs built with SpringBoot:
   </code>
 
 - /redis/alltestresult
-User can check the execution result of each test result
+<br>User can check the execution result of each test result</br>
+<br>Sample:</br>
   <code>
   {
     "data": {
@@ -35,7 +36,8 @@ User can check the execution result of each test result
   </code>
 
 - /redis/countalltestresult
-  User can check the number of passed, failed and total number of test result  
+  <br>User can check the number of passed, failed and total number of test result</br>
+  <br>Sample:</br>
   <code>
   {
     "data": {
