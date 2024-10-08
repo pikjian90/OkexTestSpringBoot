@@ -1,0 +1,43 @@
+server:
+  port: 9999
+
+
+#spring:
+#  data:
+#    redis:
+#      host: localhost
+#      port: 6379
+
+Person:
+ name: ALI
+ age: 18
+ birthday: 2010/1/1 12:12:12
+ like: true
+ child:
+   name: CHILD
+   age: 4
+   birthday: 1919/12/12
+#   text: [abc, def]
+   text:
+     - abc
+     - def
+     - |
+       as dasd 
+       
+       asdasdad ^&*()
+       \taaa\baaaa\nccc 
+       as dasdasd
+     - >
+       aaa
+       bbb
+       ccc
+ dogs:
+   - name : BLACK
+     age : 1
+   - name : RED
+     age : 2
+ cats:
+   c1:
+    name: WHITE
+    age: 3
+   c2: {name: BLUE, age: 4}
